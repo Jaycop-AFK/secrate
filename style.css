@@ -1,0 +1,85 @@
+/* รีเซ็ตสไตล์พื้นฐาน */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Prompt', sans-serif;
+    background-color: #b46d7f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* กล่องหลัก */
+  .container {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    width: 400px;
+  }
+  
+  /* ข้อความ */
+  h1 {
+    color: #ff6b81;
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }
+  
+  p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  /* ปุ่ม */
+  button {
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff3b61;
+  }
+  
+  /* ป๊อปอัพ */
+  .popup {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #ff6b81;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  /* ซ่อนป๊อปอัพตอนแรก */
+  .hidden {
+    display: none;
+  }
+  
+  /* สไตล์สำหรับมือถือ */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  
+    button {
+      font-size: 0.9rem;
+    }
+  }
+  
