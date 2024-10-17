@@ -5,5 +5,5 @@ heartButton.addEventListener('click', () => {
   popup.classList.toggle('hidden');
   setTimeout(() => {
     popup.style.opacity = 1;
-  }, 100); // เพิ่มการหน่วงให้อนิเมชันน่ารักขึ้น
+  }, 100);
 });
